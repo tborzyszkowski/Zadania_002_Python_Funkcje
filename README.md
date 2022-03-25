@@ -1,40 +1,37 @@
-# Zestaw zadań nr 1
+# Zadanie nr 2 - Hetmani i Pionek
 
 | Termin oddania | Punkty     |
 |----------------|:-----------|
-|    20.03.2022 23:00 |   10        |
+|    10.04.2022 23:00 |   10        |
 
 --- 
 Przekroczenie terminu o **n** zajęć wiąże się z karą:
-- punkty uzyskania za realizację zadania są dzielone przez **2<sup>n</sup>**.
+- punkty uzyskanie za realizację zadania są dzielone przez **2<sup>n</sup>**.
 
 --- 
+## Generowanie mapy [3 pkt]
+Pierwszy etapem zadania będzie wygenerowanie planszy 8x8. W skład mapy wychodzą:
+- k hetmanów rozmieszczonych losowa na mapie,
+- jeden pionek rozmieszczony losowa na mapie.
 
-## Zadanie 1 [2 pkt]
-Napisz program, który wypisze na ekranie wszystkie liczby pierwsze z zadanego zakresu.
+Każdy z elementów zostaje ustawiony na różnej pozycji.
+Po włączeniu programu schemat planszy powinien się wyświetlać użytkownikowi.
 
-## Zadanie 2 [2 pkt]
-Liczby zaprzyjaźnione to dwie liczby naturalne, gdzie każda z nich jest równa sumie dzielników właściwych drugiej liczby. 
-Napisz program wypisujący liczby zaprzyjaźnione z zadanego zakresu.
+## Weryfikacja bicia [4 pkt]
+Program powinien odpowiadać na pytania: 
+Czy pionek zostanie zbity przez któregos z hetmanów?
 
-## Zadanie 3 [3 pkt]
-Problem Józefa Flawiusza. 
+Dodakowo wyświetlić pozycje wszystkich hetmanów, którzy mają możliwość zbicia pionka (o ile tacy istnieją).
 
-Wyobraź sobie następującą sytuację: jesteś powstańcem żydowskim podczas oblężenia Jotopaty w 67 roku n.e. 
-Zostałeś otoczony wraz z 40 innymi żołnierzami przez legiony rzymskie, ale nie chcecie zostać pojmani. 
-Po krótkiej naradzie wymyśliliście rozwiązanie: ustawicie się w kole i pierwsza osoba zabije tą znajdującą się bezpośrednio po lewej, 
-kolejny żołnierz zabije kompana po swojej lewej, aż do momentu gdy zostanie tylko jeden powstaniec, który popełni samobójstwo. 
-Ty jednak nie chcesz zginąć z ręki innego powstańca ani popełniać samobójstwa. 
-Gdzie w takim razie ustawić się w tym kręgu, aby uniknąć śmerci? 
-Jak opracować uniwersalny sposób na obliczenie bezpiecznego miejsca w kole dla dowolnej liczby znajdujących się w nim osób? 
-W opisanej wyżej sytuacji znalazł się Józef Flawiusz, rzymsko-żydowski historyk, od którego wzięła się nazwa problemu.
+## Dodakowe funkcje [3 pkt]
+Po wyświeleniu komunikatu z informacją o biciu, użytkownik programu, powinien mieć możliwość:
+- wylosowania nowej pozycji dla pionka z pozostawieniem pierwotnego układu hetmanów;
+- usunięcia dowolnego hetmana (wskazanie jego pozycji);
+- ponowną weryfikację bicia po ustaleniu zmian.
 
-Napisz program rozwiązujący ten problen dla dowolnej liczby żołnierzy.
-
-## Zadanie 4 [3 pkt]
-Napisz program, który posortuje n dat. 
-Zdefiniuj i wykorzystaj słownik, która będzie posiadał klucze zawierające informacje na temat dnia, miesiąca i roku. 
-Następnie posortuje dowolnym algorytmem daty rosnąco.
-
-Uwaga: Napisz algorytm sortujący od podstaw. Nie korzystaj z gotowych rozwiązań dostępnych w Pythonie.
+## Uwagi
+1. Hetman może poruszać się pionowo, poziomo lub ukośnie.
+2. Maksymalna liczba hetmanów (k) to 5.
+3. Napisz testy jednostkowe tam, gdzie to możliwe.
+4. Napisz algorytm sortujący od podstaw. Nie korzystaj z gotowych rozwiązań dostępnych w Pythonie.
 
