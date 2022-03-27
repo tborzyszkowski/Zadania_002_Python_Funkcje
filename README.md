@@ -33,5 +33,4 @@ Po wyświeleniu komunikatu z informacją o biciu, użytkownik programu, powinien
 1. Hetman może poruszać się pionowo, poziomo lub ukośnie.
 2. Maksymalna liczba hetmanów (k) to 5.
 3. Napisz testy jednostkowe tam, gdzie to możliwe.
-4. Napisz algorytm sortujący od podstaw. Nie korzystaj z gotowych rozwiązań dostępnych w Pythonie.
 
