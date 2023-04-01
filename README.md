@@ -1,8 +1,8 @@
-# Zadanie nr 2 - Hetmani i Pionek
+# Zadanie: Hetmani i Pionek
 
 | Termin oddania | Punkty     |
 |----------------|:-----------|
-|    10.04.2022 23:00 |   10        |
+|    22.04.2023 23:00 |   10        |
 
 --- 
 Przekroczenie terminu o **n** zajęć wiąże się z karą:
