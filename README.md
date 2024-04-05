@@ -2,7 +2,7 @@
 
 | Termin oddania | Punkty     |
 |----------------|:-----------|
-|    22.04.2023 23:00 |   10        |
+|    26.04.2024 23:00 |   10        |
 
 --- 
 Przekroczenie terminu o **n** zajęć wiąże się z karą:
@@ -19,9 +19,10 @@ Po włączeniu programu schemat planszy powinien się wyświetlać użytkownikow
 
 ## Weryfikacja bicia [4 pkt]
 Program powinien odpowiadać na pytania: 
-Czy pionek zostanie zbity przez któregos z hetmanów?
+Czy pionek zostanie zbity przez któregoś z hetmanów?
 
-Dodakowo wyświetlić pozycje wszystkich hetmanów, którzy mają możliwość zbicia pionka (o ile tacy istnieją).
+**Dodakowo:**
+wyświetlić pozycje wszystkich hetmanów, którzy mają możliwość zbicia pionka (o ile tacy istnieją).
 
 ## Dodakowe funkcje [3 pkt]
 Po wyświeleniu komunikatu z informacją o biciu, użytkownik programu, powinien mieć możliwość:
